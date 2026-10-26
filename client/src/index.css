@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F8F7FF;
+    color: #1E1B4B;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Lavender, Off-white, Purple Theme Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #DDD6FE;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid #DDD6FE;
+}
+
+.purple-gradient {
+  background: linear-gradient(135deg, #7C3AED 0%, #9061F9 50%, #6D28D9 100%);
+}
+
+.lavender-gradient {
+  background: linear-gradient(180deg, #F8F7FF 0%, #EDE9FE 100%);
+}
+
+.glow-purple {
+  box-shadow: 0 10px 30px -5px rgba(124, 58, 237, 0.25);
+}
+
+.glow-lavender {
+  box-shadow: 0 4px 24px -2px rgba(124, 58, 237, 0.08);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F7FF;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDD6FE;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
