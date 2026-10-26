@@ -92,3 +92,6 @@ ai-job-assistant/
     │   └── main.jsx          # Entry point
     └── vite.config.js        # Vite config with API proxy to port 5000
 ```
+👨‍💻 Author
+
+Sanskar Chaurasia
